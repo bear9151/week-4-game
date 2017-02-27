@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Marvel's INFINITY STONE OUTBREAK</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="assets/javascript/jquery.js"></script> 
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</head>
+	<body>
+	<div class="container">
+		<div id="jumbotron" class="jumbotron text-center">
+			<img id="logo" src="assets/images/marvel_logo.png" alt="Marvel Studios Logo">
+			<h2>Mission:</h2>
+			<h1>INFINITY STONE OUTBREAK!</h1>
+			<p>
+				Quick! The reveled Infinity Stones of the Marvel Cinematic Universe have been released, and the world as we know it is in peril! It's your mission to capture the stones before they wind up in the wrong hands. Each stone has a secret power value that will incrase your energy level. You must match YOUR energy level to the STONE's energy level in order for your mission to be successful. If your energy exceeds the stone's, the galaxy may implode. Good luck, Guardian!
+			</p>
+		</div>
+			<div class="row well well-lg">
+				<div id="stones-div" class="col-md-12"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<div class="panel panel-warning">
+  						<div class="panel-heading">
+    						<h3 class="panel-title text-center">Stone's Energy Level</h3>
+  						</div>
+  						<div class="panel-body text-center">
+  							<h3 id="number-to-guess"></h3>
+  						</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="panel panel-info">
+  						<div class="panel-heading">
+    						<h3 class="panel-title text-center">Your Energy Level</h3>
+  						</div>
+  						<div class="panel-body text-center">
+  							<h3 id="user-number"></h3>
+  						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="panel panel-default">
+						<div id="score-board" class="panel-body"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
